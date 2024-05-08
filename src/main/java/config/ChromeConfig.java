@@ -16,6 +16,7 @@ public class ChromeConfig {
      * Modo de usar:
      * WebDriver driver = ChromeConfig.configurarChrome();
      */
+    @SuppressWarnings("deprecation")
     public static WebDriver configurarChrome() {
         // Configurar o ChromeDriver
         System.setProperty("webdriver.chrome.driver", "C:\\DEV\\chromedriver-win32\\chromedriver.exe");
